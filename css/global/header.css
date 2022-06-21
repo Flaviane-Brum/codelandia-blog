@@ -1,0 +1,66 @@
+.header-bg {
+  background: var(--linear);
+  padding: 2.563rem 0;
+}
+
+h1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 4.563rem;
+}
+form {
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  height: 65px;
+}
+form img {
+  position: absolute;
+  top: 28%;
+  left: 20px;
+  z-index: 1;
+}
+form input {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: block;
+  height: inherit;
+  padding-left: 3.75rem;
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 2.563rem;
+  position: absolute;
+  top: 0;
+}
+form input::placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+input:focus {
+  outline: none;
+  border-color: #0467cc;
+}
+form button {
+  border: 0;
+  background: transparent;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    margin-bottom: 2.563rem;
+  }
+  .header form input {
+    font-size: 0.875rem;
+    padding-left: 2.75rem;
+  }
+  .header form {
+    height: 40px;
+  }
+  .header form img {
+    top: 23%;
+    left: 9px;
+    width: 25px;
+    height: 25px;
+  }
+}

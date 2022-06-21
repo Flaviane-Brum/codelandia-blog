@@ -1,0 +1,28 @@
+:root {
+  --white: #fff;
+  --white-200: #eff4f9;
+  --title: #0467cc;
+  --text: #445566;
+  --text-2: #667788;
+
+  --linear: linear-gradient(90deg, #0467cc 0%, #269bff 100%);
+}
+
+.white {
+  color: var(--white);
+}
+.white-200 {
+  color: var(--white-200);
+}
+.title {
+  color: var(--title);
+}
+.text {
+  color: var(--text);
+}
+.text-2 {
+  color: var(--text-2);
+}
+.linear {
+  color: var(--linear);
+}
